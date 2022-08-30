@@ -12,6 +12,6 @@ Welcome to CS 110. I look forward to working with you this semester. This is you
 
 Preferred Name: Sang
 
-Discord username: Sangyoon Kwon
+Discord username: Sangyoon Kwon 
 
-REPL url:https://github.com/bucs110FALL22/portfolio-skwon23
+REPL url: https://replit.com/@SangyoonKwon/OrnateStripedCustomization#README.md
