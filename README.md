@@ -14,4 +14,4 @@ Preferred Name: Sang
 
 Discord username: Sangyoon Kwon 
 
-REPL url: https://replit.com/@SangyoonKwon/portfolio#README.md
+REPL url: https://replit.com/join/pxcehnaawc-sangyoonkwon
