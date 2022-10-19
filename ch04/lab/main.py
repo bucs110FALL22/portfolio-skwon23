@@ -4,6 +4,61 @@ import math
 
 pygame.init()
 
+
+width = 600
+height = 300
+screen = pygame.display.set_mode([width, height])
+pygame.display.get_window_size()
+
+aliceblue = [0,50,0]
+blueviolet = [1,57,0]
+black = [1,1,0]
+coral = [0,50,0]
+red = [255,0,0]
+blue = [0,50,0]
+
+
+
+#part 1
+pygame.draw.rect(screen, 'aliceblue', (0,0,300,300))
+pygame.draw.circle(screen, 'blueviolet', (150,150),150)
+pygame.draw.line(screen, 'black', (150,0),(150,300))
+pygame.draw.line(screen, 'black', (0,150),(300,150))
+
+
+
+#part 2
+for _ in range(10):
+    n = 0
+    x_coord = random.randrange(0,300)
+    y_coord = random.randrange(0,300)
+    distance_from_center = math.hypot(150 - x_coord, 150 - y_coord)
+
+    
+
+
+  
+    if distance_from_center <= 300/2:
+      n += 1
+      pygame.draw.circle(screen,red,(x_coord,y_coord),5)
+      print("Player blue throws..... hit")
+
+
+
+    elif distance_from_center > 300/2:
+
+      pygame.draw.circle(screen,blue,(x_coord,y_coord),5)
+      print("Player blue throws......miss")
+
+
+    
+    pygame.display.flip()
+    pygame.time.wait(1000)
+
+
+
+
+
 width = 600
 height = 300
 screen = pygame.display.set_mode([width, height])
