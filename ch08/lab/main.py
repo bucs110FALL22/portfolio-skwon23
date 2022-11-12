@@ -17,6 +17,7 @@ def main():
     for s in su:
         result = str(s)
         print(f"{s}, got: {result}, expected: {expected_results[i]}")
+      
         assert(result == expected_results[i])
         i += 1
 
